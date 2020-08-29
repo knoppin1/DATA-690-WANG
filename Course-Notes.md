@@ -18,8 +18,8 @@
 ## Chapter 1 
 
 ### *NumPy*
-- Short for Numerical Python
-- Provides the data structures, algorithms, and library glue needed for most scientific applications involving numerical data in Python
+>Short for Numerical Python
+>Provides the data structures, algorithms, and library glue needed for most scientific applications involving numerical data in Python
 #### **Primary Features**
 - A fast and efficient multidimensional array object ndarray
 - Functions for performing element-wise computations with arrays or mathematical operations between arrays
@@ -28,8 +28,11 @@
 - A mature C API to enable Python extensions and native C or C++ code to access NumPy’s data structures and computational facilities
 
 ### *pandas*
-- Provides high-level data structures and functions designed to make working with structured or tabular data fast, easy, and expressive
+>Provides high-level data structures and functions designed to make working with structured or tabular data fast, easy, and expressive
 
 #### **Primary Features**
 - DataFrame: a tabular, column-oriented data structure with both row and column labels
 - Series: a one-dimensional labeled array object
+
+### *matplotlib*
+>Produces plots and other two dimensional data visualizations.
