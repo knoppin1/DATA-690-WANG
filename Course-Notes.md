@@ -19,6 +19,7 @@
 
 ### *NumPy*
 >Short for Numerical Python
+
 >Provides the data structures, algorithms, and library glue needed for most scientific applications involving numerical data in Python
 #### **Primary Features**
 - A fast and efficient multidimensional array object ndarray
