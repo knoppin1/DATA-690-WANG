@@ -121,3 +121,6 @@ Introspection - Using a question mark (?) before or after a variable will displa
 
 `%cpaste` - allows for looking at the pasted code before executing it (use Ctl-C to break out of execution)
 
+### Exercises
+
+See **Practice-01.ipynb**
