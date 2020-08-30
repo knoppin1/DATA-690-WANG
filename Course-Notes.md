@@ -12,6 +12,11 @@
 
 `touch test2.py` - Creates a new file
 
+## Miscellaneous
+
+- Jupyter - Julia + Python + R
+
+
 ---
 # Python for Data Analysis Notes
 
@@ -84,4 +89,35 @@ import seaborn as sns
 import statsmodels as sm
 ```
 
+## Chapter 2
+
+### Python Interpreter
+
+`python` - start python interpreter from a terminal command line
+
+`python program.py` - run python program
+
+### IPython Shell
+
+`ipython` - start Interactive Python shell from a terminal command line
+
+### Jupyter Notebook
+
+`jupyter notebook` - start Jupyter from a terminal command line
+
+Note: use --no-browser option or it will start in default web browser (http://localhost:8888)
+
+### Stuff to know
+
+Tab Completion - While entering expressions in the shell, pressing the Tab key will search the namespace for any variables (objects, functions, etc.) matching the characters typed so far
+
+Introspection - Using a question mark (?) before or after a variable will display some general information about the object
+
+`%run file` - run any file as a Python program inside the environment of an IPython session
+
+`%load script` - imports a script into a code cell in a Jupyter notebook
+
+`%paste` - takes whatever text is in the clipboard and executes it as a single block in the shell
+
+`%cpaste` - allows for looking at the pasted code before executing it (use Ctl-C to break out of execution)
 
