@@ -78,7 +78,7 @@ def main():
         
         # Loop through and print integers for the line.
         for j in range(0, INTEGERS_PER_LINE):
-            print(random_integer_list[i * INTEGER_LINES + j], end = " ")
+            print(random_integer_list[i * INTEGERS_PER_LINE + j], end = " ")
             
         # Print a border suffix for this line of the matrix.
         print(ASTERISK, end = '\n')
