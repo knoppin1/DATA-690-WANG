@@ -1,5 +1,5 @@
 # Week 1 Notes
-
+ 
 ## Book to Use for Course
 - Python for Data Analysis - Wes McKinney
 
