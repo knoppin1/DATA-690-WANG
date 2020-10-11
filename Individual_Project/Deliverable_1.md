@@ -1,15 +1,17 @@
 # DATA 609 - Individual Project
 ## Ken Noppinger
 
-Find an issue that you are passionate about or are interested in as the topic for this exploratory data analysis project.
+## Instructions
 
-Make sure there are publicly available data about this issue to perform exploratory analysis.
-
-The analysis should include descriptive statistics, data visualization, and optionally statistical inference.
+- Find an issue that you are passionate about or are interested in as the topic for this exploratory data analysis project.
+- Make sure there are publicly available data about this issue to perform exploratory analysis.
+- The analysis should include descriptive statistics, data visualization, and optionally statistical inference.
 
 ## Deliverable #1 - Project Proposal in Markdown format
 
-Write and submit a research proposal in the **Markdown** format that answers the following questions:
+- Write and submit a research proposal in the **Markdown** format that answers the following questions:
+
+---
 
 ### 1. What is your issue of interest (provide sufficient background information)?
 
@@ -21,6 +23,8 @@ emphasis placed on social distancing and wearing masks by health organizations a
 population density relative to the virus spread.  
 
 The goal is to determine which densely populated places in the US have done a better job of containing the spread of the virus.  
+
+---
 
 ### 2. Why is this issue important to you and/or to others?
 
@@ -34,6 +38,8 @@ identify the places that have statistically been more or less affected.
 
 Knowing this information will provide insight into those places whose local policies may be working better than others in containing the virus in lieu of a vaccine.
 
+---
+
 ### 3. What questions do you have in mind and would like to answer?
 
 - What counties in the US are the most populated?
@@ -41,6 +47,8 @@ Knowing this information will provide insight into those places whose local poli
 - What counties in the US have the most confirmed cases of COVID-19?
 - Are the most densely populated counties represented in the counties with the highest case counts?  If not, which ones?
 - How do case counts in densely populated counties compare to counts in counties with the highest rates of cases per million people?  Is there a correlation?
+
+---
 
 ### 4. Where do you get the data to help answer your questions? 
 
@@ -57,11 +65,15 @@ The following census data file will be used to extract the county land area info
 All of these files contain a FIPS code (Federal Information Processing Standard state code) column that uniquely identifies the counties.  Data will be loaded into
 dataframes and merged on this column as appropriate to consolidate the data of interest for the study.
 
+---
+
 ### 5. What will be your unit of analysis (for example, patient, organization, or country)? Roughly how many units do you expect to analyze?
 
 The main unit for analyis is a "county" in the US.  
 
 There are 3275 counties in the data set to be used for the study.
+
+---
 
 ### 6. What variables/measures do you plan to use in your analysis?
 
@@ -73,6 +85,8 @@ Key variables or metrics to the study are:
 - Confirmed Cases Per Million Population
 - Confirmed Cases Per Square Mile
 
+---
+
 ### 7. What kinds of techniques do you you plan to use (for example, summary statistics, scatter plot, bar chart, chi-squared test)? 
 
 Summary statistics such as Count, Mean, Range, Standard Deviation will be identified for each variable.
@@ -83,3 +97,5 @@ Line or bar charts will compare COVID-19 aggregate data in counties identified a
 
 Time series line or bar charts will compare COVID-19 spread in counties identified as most densely populated. 
 
+---
+## COMPLETE
